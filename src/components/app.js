@@ -1,9 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
+import SearchBar from './SearchBar';
 
-export default class App extends Component {
+const API_KEY = 'AIzaSyCe6k-m_QBnlkm3RxQiqWF3PNpLSostCro';
+
+export default class App extends React.Component {
   render() {
     return (
-      <div>React simple starter</div>
+      <div>
+        <SearchBar />
+      </div>
     );
   }
 }
